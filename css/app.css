@@ -1,0 +1,183 @@
+/* ///// HEADINGS ///// */
+@font-face {
+    font-family: W95FA;
+  src: url(/assets/W95FA/w95fa.woff);
+}
+
+body {
+  cursor: url('/assets/3d-cursor-arrow.png'),auto;
+}
+
+.grid-padding-y {
+  padding-bottom: 30px;
+}
+
+body {
+  font-family: "W95FA", Times, serif;
+  font-weight: 400;
+  color: black;
+  background-image: url("/assets/grid-background.jpeg");
+  background-color: grey;
+}
+h1, h2, h3, h4 {
+  font-family: "W95FA", Times, serif;
+  font-weight: 600;
+  background-color: #C0C0C0;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 5em;
+  line-height: 1em;
+  margin: 30px 0 0;
+  color: #440b8f;
+  /* background-color: #030c7e;
+  color: white; */
+}
+h2 {
+  font-size: 4.25em;
+  margin: 0;
+}
+h3 {
+  font-size: 2.6em;
+  margin: 0;
+  background-color: #030c7e;
+  color: white;
+}
+h4 {
+  font-size: 1.4em;
+  margin: 10px 0 5px;
+}
+p, label, ol, ul {
+  line-height: 1.8em;
+  font-size: 1.3em;
+  color: black;
+  background-color: #C0C0C0;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  padding: 20px;
+}
+
+ol {
+  font-size: 1.4em;
+  font-weight: 600;
+  padding-left: 40px;
+  margin-left: 0;
+}
+
+ol ul {
+  font-size: 1em;
+  font-weight: 400;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding-left: 40px;
+}
+
+a:link, a:visited {
+  color: blue;
+}
+a:hover {
+  color: purple;
+  cursor: url('/assets/3d-cursor-hand.png'),auto;
+}
+
+.copyright {
+  text-align: center;
+  font-size: .8em;
+}
+
+#buy-border {
+  border: 1px dashed black;
+}
+
+#buy-border:hover {
+  border: none;
+}
+
+#click-below {
+  text-align: center;
+}
+
+#click-below-text {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.buy-button-top {
+  margin: 50px 15px 15px 15px;
+  background-color: #f250c4;
+  border-top: 2px solid #fc92de;
+  border-left: 2px solid #fc92de;
+  border-right: 2px solid #a11b7b;
+  border-bottom: 2px solid #a11b7b;
+  padding: 20px;
+  /* height: 92px; */
+}
+
+.buy-button-top:hover {
+  background-color: #e349b7;
+  margin: 50px 15px 15px 15px;
+  border-top: 2px solid #a11b7b;
+  border-left: 2px solid #a11b7b;
+  border-right: 2px solid #fc92de;
+  border-bottom: 2px solid #fc92de;
+}
+
+.buy-button {
+  background-color: #f250c4;
+  border-top: 2px solid #fc92de;
+  border-left: 2px solid #fc92de;
+  border-right: 2px solid #a11b7b;
+  border-bottom: 2px solid #a11b7b;
+  padding: 20px;
+}
+
+.buy-button:hover {
+  background-color: #e349b7;
+  border-top: 2px solid #a11b7b;
+  border-left: 2px solid #a11b7b;
+  border-right: 2px solid #fc92de;
+  border-bottom: 2px solid #fc92de;
+  padding-bottom: 20px;
+  color: purple;
+}
+
+.image-border {
+  background-color: #C0C0C0;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  padding: 20px;
+  margin-top: 0;
+}
+
+.grid-padding-y#above-image {
+  padding-bottom: 0;
+}
+
+#venmo {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#logo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 8px;
+}
+
+#hit-counter {
+  max-width: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
