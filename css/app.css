@@ -1,11 +1,11 @@
 /* ///// HEADINGS ///// */
 @font-face {
     font-family: W95FA;
-  src: url(https://lianaluxe.github.io/assets/W95FA/w95fa.woff);
+  src: url(https://lianaluxe.github.io/IRLNFT/assets/W95FA/w95fa.woff);
 }
 
 body {
-  cursor: url('https://lianaluxe.github.io/assets/3d-cursor-arrow.png'),auto;
+  cursor: url('https://lianaluxe.github.io/IRLNFT/assets/3d-cursor-arrow.png'),auto;
 }
 
 .grid-padding-y {
@@ -16,7 +16,7 @@ body {
   font-family: "W95FA", Times, serif;
   font-weight: 400;
   color: black;
-  background-image: url("https://lianaluxe.github.io/assets/grid-background.jpeg");
+  background-image: url("https://lianaluxe.github.io/IRLNFT/assets/grid-background.jpeg");
   background-color: grey;
 }
 h1, h2, h3, h4 {
@@ -85,7 +85,7 @@ a:link, a:visited {
 }
 a:hover {
   color: purple;
-  cursor: url('https://lianaluxe.github.io/assets/3d-cursor-hand.png'),auto;
+  cursor: url('https://lianaluxe.github.io/IRLNFT/assets/3d-cursor-hand.png'),auto;
 }
 
 .copyright {
