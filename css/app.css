@@ -66,11 +66,16 @@ p, label, ol, ul {
 }
 
 ol {
+  padding-left: 40px;
+  margin-left: 0;
+}
+
+/* ol .faq {
   font-size: 1.4em;
   font-weight: 600;
   padding-left: 40px;
   margin-left: 0;
-}
+} */
 
 ol ul {
   font-size: 1em;
