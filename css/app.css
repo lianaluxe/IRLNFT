@@ -71,12 +71,9 @@ ol {
   margin-left: 0;
 }
 
-/* ol .faq {
-  font-size: 1.4em;
-  font-weight: 600;
-  padding-left: 40px;
-  margin-left: 0;
-} */
+ol li {
+  margin-bottom: 5px;
+}
 
 ol ul {
   font-size: 1em;
@@ -84,10 +81,16 @@ ol ul {
   margin: 10px;
   margin-bottom: 20px;
   padding-left: 40px;
+  background-color: #b5b5b5;
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
 }
 
 a:link, a:visited {
   color: blue;
+  text-decoration: underline;
 }
 a:hover, button:hover, [data-open]:hover {
   color: purple;
