@@ -16,13 +16,13 @@
 <body>
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y">
-      <section class="cell auto buy-button-top">
+      <section class="cell auto buy-button-top hide-for-small-only">
         <a href="https://www.paypal.com/paypalme/johnnyedgephoto">
           <img src="assets/order-now.gif" id="buy-border">
         </a>
       </section>
       <section class="cell small-12 medium-6">
-        <h1>&#10022; IRL NFTs &#10022;</h1>
+        <h1>✨IRL NFTs✨</h1>
       </section>
       <section class="cell auto buy-button-top">
         <a href="https://www.paypal.com/paypalme/johnnyedgephoto">
@@ -160,14 +160,20 @@
 
     <div class="grid-x grid-padding-x grid-padding-y">
       <section class="cell small-12 medium-12">
-        <h3 id="click-below">↓ ↓ ↓ ↓ ↓ <span id="click-below-text">CLICK BELOW TO ORDER</span> ↓ ↓ ↓ ↓ ↓</h3>
+        <h3 id="click-below">
+          <span class="hide-for-small-only">↓ ↓ ↓ ↓ ↓ </span>
+          <span class="hide-for-medium">⬇️</span>
+          <span id="click-below-text">CLICK BELOW TO ORDER</span>
+          <span class="hide-for-medium">⬇️</span>
+          <span class="hide-for-small-only"> ↓ ↓ ↓ ↓ ↓</span>
+          </h3>
       </section>
     </div>
 
     <div class="grid-x grid-padding-x grid-padding-y">
       <section class="cell medium-auto"></section>
       <section class="cell small-1 medium-2">
-        <img src="assets/spinning-bitcoin.gif">
+        <img src="assets/spinning-bitcoin.gif" alt="animated spinning gold bitcoin" class="hide-for-small-only">
       </section>
       <a href="https://www.paypal.com/paypalme/johnnyedgephoto" class="buy-button">
         <section class="cell small-4">
@@ -175,7 +181,7 @@
         </section>
       </a>
       <section class="cell small-1 medium-2">
-        <img src="assets/spinning-bitcoin.gif">
+        <img src="assets/spinning-bitcoin.gif" alt="animated spinning gold bitcoin" class="hide-for-small-only">
       </section>
       <section class="cell medium-auto"></section>
     </div>
@@ -277,6 +283,7 @@
           <img src="assets/email-pixel-icon.png" alt="pixelated instagram icon" class="social-icon">
         </a>
       </div>
+      <div class="cell auto hide-for-medium"></div>
       <div class="cell small-2 medium-1">
         <a href="https://www.instagram.com/irlnftart/">
           <img src="assets/instagram-pixel-icon.png" alt="pixelated instagram icon" class="social-icon">

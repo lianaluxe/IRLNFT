@@ -233,11 +233,17 @@ a img:hover, img[data-open]:hover {
   max-width: 80px;
 }
 
-/* .footer-block {
-  background-color: #C0C0C0;
-  border-top: 2px solid white;
-  border-left: 2px solid white;
-  border-right: 2px solid grey;
-  border-bottom: 2px solid grey;
-  padding: 20px;
-} */
+@media screen and (max-width: 39.9375em) {
+  h1 {
+    font-size: 4em;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  #click-below-text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
